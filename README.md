@@ -38,6 +38,6 @@ Structure references: https://www.kaganonline.com/catalog/Instant_Engagement/tea
 
 ## Implementation
 
-Buildless HTML, CSS and JavaScript in dist. Netlify publishes dist from the main branch with no build command or installation step. Deployment settings are in netlify.toml. Syntax check: node --check dist/app.js. No external client dependencies, fonts, analytics or microphone requests.
+Buildless HTML, CSS and JavaScript in dist. Netlify serves a direct upload of the contents of dist with no build command or installation step. This initial deployment is manual and is not linked for automatic GitHub redeployments. netlify.toml also records the dist publish directory for a future repository-linked deployment. Syntax check: node --check dist/app.js. No external client dependencies, fonts, analytics or microphone requests.
 
 The GitHub repository and production website are public. The supplied student article is publicly downloadable; teacher model responses are excluded.
