@@ -2,6 +2,8 @@
 
 A focused browser-local discussion companion for AP Business with Personal Finance Topic 2.1.
 
+[Open the public classroom site](https://econ-with-k-token-of-trust.netlify.app/)
+
 ## Classroom use
 
 Read the supplied four-page case first. Use one shared device for each team of four. With 28 students, this gives seven teams. Preparation, equal timed turns, a challenge conversation and an individual exit keep attention on evidence and reasoning. Print or save the final team record through the browser print dialog.
