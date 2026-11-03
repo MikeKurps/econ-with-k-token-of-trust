@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172e3a">
+  <meta name="description" content="An Econ with K guided case conversation for AP Business Topic 2.1: equal speaking turns, case evidence, a supported decision and a printable team record.">
+  <title>Token of Trust Case Lab · Econ with K</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Econ with K Case Lab home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span>Econ with K<small>Case conversation lab</small></span>
+      </a>
+      <div class="top-actions">
+        <button class="button ghost small" type="button" data-action="teacher">Teacher guide</button>
+        <button class="button ghost small" type="button" data-action="export">Export record</button>
+        <button class="button ghost small" type="button" data-action="clear">New team</button>
+      </div>
+    </header>
+
+    <section class="hero" aria-labelledby="caseTitle">
+      <div class="hero-copy">
+        <p class="eyebrow">AP Business · Topic 2.1 · Marketing to customers</p>
+        <h1 id="caseTitle">Token of Trust</h1>
+        <p>How did Token of Trust choose its target customer—and was the decision justified?</p>
+        <div class="hero-meta">
+          <span class="chip">4 people · 1 shared device</span>
+          <span class="chip">20–25 minutes after reading</span>
+          <span class="chip">Explain. Evaluate. Justify.</span>
+        </div>
+        <p style="margin-top:18px"><a class="button secondary" href="./case/token-of-trust.pdf" target="_blank" rel="noopener">Read the four-page case &nearr;</a></p>
+      </div>
+    </section>
+
+    <div class="layout">
+      <nav class="step-nav" aria-label="Discussion stages">
+        <p class="eyebrow">Your conversation</p>
+        <button class="step-link" type="button" data-step="0"><span class="step-num">1</span><span>Prepare<small>Think for yourself</small></span></button>
+        <button class="step-link" type="button" data-step="1"><span class="step-num">2</span><span>RoundRobin<small>Every voice, with evidence</small></span></button>
+        <button class="step-link" type="button" data-step="2"><span class="step-num">3</span><span>Challenge<small>Compare the alternatives</small></span></button>
+        <button class="step-link" type="button" data-step="3"><span class="step-num">4</span><span>Decision<small>Explain what you think</small></span></button>
+      </nav>
+      <main class="workspace" id="stageMount" aria-live="off"></main>
+    </div>
+
+    <footer class="footer">
+      <span id="saveStatus" role="status" aria-live="polite">Work is saved in this browser on this device.</span>
+      <span>Use your teacher-provided case · <a href="https://apcentral.collegeboard.org/courses/ap-business-personal-finance/classroom-resources" target="_blank" rel="noopener">College Board case resources</a></span>
+    </footer>
+  </div>
+
+  <dialog id="teacherDialog" class="teacher-dialog" aria-labelledby="teacherTitle">
+    <header class="dialog-header"><h2 id="teacherTitle">Run a better case conversation</h2><button class="button ghost small" type="button" data-action="close-teacher" aria-label="Close teacher guide">Close</button></header>
+    <p>For 28 students, use seven teams of four and one shared device per team. Students should read the four-page <em>Token of Trust</em> case first. This is an evaluation case: the founders’ B2B choice is known. Students explain how the evidence informed that choice and judge whether it was justified.</p>
+    <div class="teacher-grid">
+      <div><h3>Before the conversation</h3><p>Give two quiet minutes to distinguish the focus-group evidence from the price-premium evidence and identify an inference limit. Students then form an initial view of the B2B choice. Short notes and bilingual planning are welcome.</p><p>The structure is a <strong>Kagan-inspired adaptation</strong> of equal timed turns, paraphrase-before-response and individual accountability, rather than an official Kagan script.</p></div>
+      <div><h3>During the conversation</h3><p>Listen closely to two teams each round. Look for accurate case references, fair paraphrasing and a response to a different view.</p><p>Ask a student you select: <strong>“Explain a teammate’s reason, then tell me what you think.”</strong> Move beyond the most fluent volunteer.</p><button class="button secondary small" type="button" data-action="pick-voice">Pick a voice for this team</button><p id="spotCheck" class="help" aria-live="polite" style="margin-top:10px"></p></div>
+      <div><h3>Use the record as evidence</h3><p>A completed field or a running timer does not establish understanding. Use the team record alongside your observation and brief individual follow-up.</p><p>Each student gives an independent exit response. Assess business meaning, evidence and listening; accent, speaking speed and confidence are not separate criteria.</p></div>
+      <div><h3>Keep collection simple</h3><p>Print or save one team record as a PDF. Collect it using your usual classroom process.</p><p>Names and writing stay in the browser on the current device. There is no live class dashboard or automatic submission. Export a backup before clearing the device.</p></div>
+    </div>
+    <details><summary>Topic and skill connections</summary><p>The discussion samples selected essential knowledge from all four Topic 2.1 objectives: <strong>2.1.A</strong>, why and how marketers collect data; <strong>2.1.B</strong>, using segmentation to identify a target customer; <strong>2.1.C</strong>, customer relationships, acquisition cost and lifetime value; and <strong>2.1.D</strong>, risks from collecting and using customer data.</p><p><strong>3.C:</strong> compare B2C and B2B against stated criteria. <strong>3.D:</strong> recommend whether to maintain or change a course of action, using evidence and a counterargument. <strong>4.B:</strong> frame the final evaluation as a brief to business decision makers. <strong>5.B/5.D:</strong> agree responsibilities and make useful contributions. One discussion samples these skills; it does not establish complete mastery.</p></details>
+    <details><summary>Case → student action → skill → essential knowledge</summary><div class="matrix-wrap"><table class="report-table" style="font-size:.8rem"><thead><tr><th scope="col">Case focus</th><th scope="col">Student action</th><th scope="col">Skill</th><th scope="col">Topic 2.1 EK</th></tr></thead><tbody>
+      <tr><th scope="row">Evidence, pp. 1–2</th><td>Interpret what the focus groups and 20% premium do and do not establish.</td><td>1.B</td><td>2.1.A.2, A.4</td></tr>
+      <tr><th scope="row">B2C profile, p. 2 · optional oral extension</th><td>Hypothesize a plausible demographic and psychographic profile linked to the fraud problem; label assumptions. This extension is not part of the required written record.</td><td>1.C</td><td>2.1.A.3.i–ii; B.1–B.3</td></tr>
+      <tr><th scope="row">B2C/B2B comparison, pp. 2–3</th><td>Agree two criteria; compare customer fit, costs, subscription revenue and relationship value.</td><td>3.C</td><td>2.1.B.2, B.4; C.2–C.3</td></tr>
+      <tr><th scope="row">Data and trust, pp. 3–4</th><td>Defend a data policy that weighs revenue, consumer privacy, mission and reputation.</td><td>3.D</td><td>2.1.D.1–D.3; C.3 connection</td></tr>
+    </tbody></table></div></details>
+    <div class="case-source"><strong>Teacher references</strong><p><a href="https://apcentral.collegeboard.org/media/pdf/ap-business-personal-finance-course-and-exam-description.pdf" target="_blank" rel="noopener">College Board CED: Topic 2.1, printed pages 49–51</a></p><p><a href="https://www.kaganonline.com/catalog/Instant_Engagement/team_structures_demo.php" target="_blank" rel="noopener">Kagan: Timed RoundRobin</a> · <a href="https://www.kaganonline.com/free_articles/dr_spencer_kagan/ASK14.php" target="_blank" rel="noopener">Kagan: listening and paraphrasing</a></p></div>
+  </dialog>
+
+  <dialog id="reportDialog" class="teacher-dialog" aria-labelledby="reportDialogTitle">
+    <header class="dialog-header"><h2 id="reportDialogTitle">Your team record</h2><div class="top-actions"><button class="button primary small" type="button" data-action="print">Print / Save PDF</button><button class="button ghost small" type="button" data-action="close-report">Close</button></div></header>
+    <div id="reportPreview" class="report-preview"></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <article id="printReport" aria-label="Printable team discussion record"></article>
+</body>
+</html>
